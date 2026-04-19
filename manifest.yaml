@@ -11,7 +11,7 @@ base:
       name: "origin"
 
       # Remote Git repository. available drivers: file://, http://, http://
-      url: https://github.com/gbwf-dev/vanilla.git
+      url: https://github.com/gravel-dev-1/vanilla.git
 
       # Remote Git Ref (optional) (default: "master")
       ref: master
@@ -20,30 +20,30 @@ base:
     color: 4 # Blue
     remote:
       name: "plugin-solid"
-      url: https://github.com/gbwf-dev/solid.git
+      url: https://github.com/gravel-dev-1/solid.git
       ref: master
 
   - name: "@inertia/solid-js"
     color: 4 # Blue
     remote:
       name: "plugin-inertia-solid"
-      url: https://github.com/gbwf-dev/solid.git
+      url: https://github.com/gravel-dev-1/solid.git
       ref: inertia
 
   - name: Tanstack Solid Router
     remote:
-      url: https://github.com/gbwf-dev/solid.git
+      url: https://github.com/gravel-dev-1/solid.git
       ref: tanstack/router
       name: "plugin-tanstack-solid-router"
 
 plugins:
   - name: GORM SQLite
     remote:
-      url: https://github.com/gbwf-dev/database.git
+      url: https://github.com/gravel-dev-1/database.git
       name: plugin-sqlite
       ref: sqlite
 
   - name: GORM PostgreSQL
     remote:
-      url: https://github.com/gbwf-dev/database.git
+      url: https://github.com/gravel-dev-1/database.git
       ref: postgresql

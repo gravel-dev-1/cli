@@ -6,10 +6,10 @@ import (
 	"io"
 	"os"
 
-	"gbwf/components"
-	"gbwf/manifest"
-	"gbwf/ort"
-	"gbwf/source"
+	"gravel/components"
+	"gravel/manifest"
+	"gravel/ort"
+	"gravel/source"
 
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/go-git/go-billy/v6/memfs"
@@ -28,7 +28,7 @@ import (
 // initCmd represents the init command
 var initCmd = &cobra.Command{
 	Use:   "init",
-	Short: "Initialize a GBWF App",
+	Short: "Initialize a gravel App",
 	Long:  `Starts the cli process`,
 
 	RunE: RunE,
@@ -38,7 +38,7 @@ var initCmd = &cobra.Command{
 
 const (
 	ManifestFlag = "manifest"
-	Manifest     = "https://raw.githubusercontent.com/gbwf-dev/cli/refs/heads/master/manifest.yaml"
+	Manifest     = "https://raw.githubusercontent.com/gravel-dev-1/cli/refs/heads/master/manifest.yaml"
 
 	DryRunFlag = "dry-run"
 	DryRun     = false

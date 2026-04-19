@@ -1,5 +1,5 @@
 package main
 
-import "gbwf/cmd"
+import "gravel/cmd"
 
 func main() { cmd.Execute() }

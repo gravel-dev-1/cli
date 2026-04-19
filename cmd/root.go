@@ -8,10 +8,10 @@ import (
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "gbwf",
-	Short: "The Git-Based Web Framework CLI",
+	Use:   "gravel",
+	Short: "Gravel CLI",
 	Long: `
-Command Line Interface for the Git-Based Web Framework.
+Command Line Interface for Gravel.
 
 It performs Git operations to retrieve and merge the project scaffoldings.
 `,

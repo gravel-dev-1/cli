@@ -47,3 +47,8 @@ plugins:
     remote:
       url: https://github.com/gravel-dev-1/database.git
       ref: postgresql
+
+  - name: GORM MySQL
+    remote:
+      url: https://github.com/gravel-dev-1/database.git
+      ref: postgresql

@@ -23,12 +23,26 @@ base:
       url: https://github.com/gravel-dev-1/solid.git
       ref: master
 
-  - name: "@inertia/solid-js"
+  - name: "@inertiajs/solid-js"
     color: 4 # Blue
     remote:
       name: "plugin-inertia-solid"
       url: https://github.com/gravel-dev-1/solid.git
       ref: inertia
+  
+  - name: "@inertiajs/react"
+    color: 6 # Cyan
+    remote:
+      name: "origin"
+      url: https://github.com/gravel-dev-1/inertiajs.git
+      ref: react
+  
+  - name: "@inertiajs/svelte"
+    color: 1 
+    remote:
+      name: "origin"
+      url: https://github.com/gravel-dev-1/inertiajs.git
+      ref: svelte
 
   - name: Tanstack Solid Router
     remote:
